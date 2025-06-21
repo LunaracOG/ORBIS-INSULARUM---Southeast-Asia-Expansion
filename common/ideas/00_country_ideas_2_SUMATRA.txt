@@ -918,8 +918,8 @@ BKL_ideas = {
 
 PGR_ideas = {
     start = {
-        spy_offence = 0.20
-        global_spy_defence = 0.20
+        spy_offence = 0.15
+        global_spy_defence = 0.15
     }
  
     bonus = {
@@ -947,12 +947,12 @@ PGR_ideas = {
     }
     pgr_mantra_tambo = {
 		prestige = 0.5
-        ideas_cost = -0.1
+        idea_cost = -0.1
     }
     pgr_kabau = {
 		defensiveness = 0.10
     }
-    pgr_minang: = {
+    pgr_minang = {
 		army_tradition_from_battle = 0.5
     }
 }
