@@ -294,7 +294,7 @@ dumangan = {
 }
 
 
-diwathan Gods
+#diwathan Gods
 ############################
 
 kaptan = {
