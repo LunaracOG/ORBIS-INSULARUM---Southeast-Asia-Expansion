@@ -4,6 +4,7 @@ government_rank = 3
 primary_culture = javanese
 technology_group = chinese
 religion = hinduism
+secondary_religion = mahayana
 capital = 628# Surabaya
 # Majapahit
 historical_friend = BTN

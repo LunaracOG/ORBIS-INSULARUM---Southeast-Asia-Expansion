@@ -5,6 +5,7 @@ primary_culture = bali
 technology_group = chinese
 add_accepted_culture = nusa_tenggara
 religion = hinduism
+secondary_religion = katuhanan
 capital = 631# Bali
 
 historical_friend = SUN

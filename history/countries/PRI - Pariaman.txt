@@ -3,6 +3,7 @@ add_government_reform = adat_minangkabau
 government_rank = 1
 primary_culture = minag
 religion = vajrayana
+secondary_religion = katuhanan
 technology_group = chinese
 capital = 2682# Pariaman
 

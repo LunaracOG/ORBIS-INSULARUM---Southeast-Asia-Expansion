@@ -3,6 +3,7 @@ add_government_reform = mandala_reform
 government_rank = 2
 primary_culture = javanese
 religion = mahayana
+secondary_religion = hinduism
 technology_group = chinese
 capital = 4801# Amuntai
 1444.11.11 = { 
