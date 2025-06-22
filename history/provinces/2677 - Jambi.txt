@@ -2,14 +2,13 @@
 # 2677 Jambi - 5/16/2025 12:37:50 PM 
 add_core = DHR
 add_core = JMB
-owner = DHR
-controller = DHR
+owner = JMB
 base_tax = 5
 base_production = 4
 base_manpower = 3
 trade_goods = copper
 culture = orang_rimba
-religion = austronesian_animism
+religion = sunni
 capital = "Jambi"
 is_city = yes
 discovered_by = chinese

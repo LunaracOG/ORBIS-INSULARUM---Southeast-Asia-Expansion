@@ -2,7 +2,7 @@
 # 659 Lingga - 5/16/2025 12:37:49 PM 
 add_core = JMB
 add_core = DHR
-owner = DHR
+owner = JMB
 controller = DHR
 base_tax = 2
 base_production = 2

@@ -1,0 +1,41 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new groups or cultures, make sure they are unique.
+#
+# Union tags do not suffer from the 'same_culture_group' tax penalty.
+# Primary tags are the first choice for rebel factions seeking cultural independence.
+#
+# graphical_culture = westerngfx
+# second_graphical_culture = muslimgfx (fallback if the first does not exist)
+
+chamik_g = {
+	graphical_culture = southeastasiangfx
+	second_graphical_culture = asiangfx
+
+	cham = {
+		primary = CHA
+		dynasty_names = { 
+			Vijaya Kauthara Panduranga Indrapura Along Apul Arok Atok Awang Badan Bahadur Bahari Balihung Bambong Dahari Daksa Dato Debata Duman Entji Eyo Hiawang Hulanapo Janggam Jarot Jasni Kersen Khoen Lemboe Mah Maraja Marturak Mat Matulesia Meor Nanggroe R_com Narotama Nik Pak Suluang Taha Teungku Tilo Triago Tun Gan Kosem Par Sos Has Porome Amadh Amath Amu Nos Sith Sman Sem Puih Kramula Kob Msas Paing Math Sabo Sen Chao Sumat Poong Hroi Ku Ksor
+		}
+		male_names = {
+			"Ko cheng" "Jaya Sinhavarman" "Maija Vijaya" "Moho Kouei-Lai" "Maha Kui Yu" "Maha P'an-lo-yue" "Po Saktirai" "Po Ganvuh" "Po Thuttirai" "Po Rattirai" "Po Tathun" "Po Tithuntirai" "Chei Krei Brei" "Po Tithun" "Po Lathun" "Po Chong Chan" "Che Anan" "Tra Hoa" "Che Bong Nga" "Ko Cheng" "Jaya Indravarman" Agam Antana Ariga Banta Bentara	Gadee Galang Gapi Lhem Madi Meurah Nanta Rhangkem Tandi Teuku Yusniar "Akes" "Bacha" "Binasuor" "Biyeng" "Brahmanra" "Cahya" "Dharma" "Dijuq" "Gama" "Gelang" "Habo" "Inra" "Inrasara" "Jamlen" "Jihia" "Katip" "Kok" "Komary" "Kurama" "Langgiri" "Le" "Ling" "Loh" "Mach" "Math" "Musa" "Ni" "Punyamin" "Raden" "Ramut" "Salan" "Saleh" "San" "Senapati" "Sles" "Sokha" "Soprey" "Sunan" "Teath" "Teri" "Tol" "Wan" "Yashya"
+		}
+	
+		female_names = {
+			Heng Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi Nu utea Orama Poe Pear Poehina Poenui Poerava Puaiti Puatea Puaura Ra ihau Ra imere Ra inui Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua Tautiare Tehani Tehea Teora Tera Tevai Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere Vaimiti Vairea Vaite Vaitiare Buleuen Ceudah Cut Dhien Jeumpa Maneh Qory Rayeuk Reuhat Seulawah Siron Teungku Uteun Wirda Inseuen Ahya Adrong	Balot Irna Itam	Kaba Indrabangsa Kisih Blet Dien Maimunah Dara Gapuak Haradewi Keumalahayati Keumala Mastini Paramecvari "Sri Alam" Puteh Meuligoe Meulu Meutia Nai_Tuler Dwarawati Inong Intan Cahya Bunga Blet Ayie Ahya Mirah Yuniar
+		}
+	}
+	acehnese = {
+		primary = ATJ
+		dynasty_names = {
+			Kutaraja Peurlak Lhokseumawe Pasai Lamuri Samudera Samandara Bieureun Gayo Alas Cakradonya Malayo Galé Lancaran Pancang Meulaboh Darud Dunia Pidie Daya Barus Singkil Tamiang Kluet Simeulue Peusangan Teunom
+		}
+		male_names = {
+			Ayub Abdul Abdullah Abdulhassan Ahmad Akbar Ali Aftas Alam Hasan Husin Ismail Mahmud Muhammad Shehryar Ibtisham Javaid Jafar Tahir Razzaq Yunus Suleyman Murtaza Hyder Amir Saif Zulfikar Imron Hafiz Akbar Yakub Abdurrashid Mokhtar Hamzah Syuaib Salman Kadir Salim Rasyid Farhan Karim Fauzan Fawwaz Ghulam Sayid Imran Adil Arif Azam Nadim Rizwan Ridwan Nasir Khalid Idris Zahir Nuh Soleh Munir Hamid Yusuf Ihsan Faisal Majid Rafiq Ashrof Iqbal Jamil Rizki Ridho Isa Yusuf Adam Nuh Saleh Ibrahim Ishak Zulkifli Musa Harun Daud Sulaiman Yunus Ilyas Yahya Zakaria Umar Usman Tholib Malik Alif Amir Amran Aqil Anwar Aziz Faiz Fuad Gozali Hamzah Ilham Ikhwan Israfil Izroil Jauhari Kamal Khalid Lukman Lutfi Mustofa Raihan Rahman Rahim Rahmat Taufik Syarif Wahid Zulkarnain Agam Antana Ariga Banta Bentara Gadee Galang Gapi Lhem Madi Meurah Nanta Rhangkem Tandi Teuku Yusniar "Akes" "Bacha" "Binasuor" "Biyeng" "Brahmanra" "Cahya" "Dharma" "Dijuq" "Gama" "Gelang" "Habo" "Inra" "Inrasara" "Jamlen" "Jihia" "Katip" "Kok" "Komary" "Kurama" "Langgiri" "Le" "Ling" "Loh" "Mach" "Math" "Musa" "Ni" "Punyamin" "Raden" "Ramut" "Salan" "Saleh" "San" "Senapati" "Sles" "Sokha" "Soprey" "Sunan" "Teath" "Teri" "Tol" "Wan" "Yashya"
+		}
+	
+		female_names = {
+			Aliyah Amira Hafsa Lailah Zahira Damia Elina Mariya Mariyam Maimunah Rukaya Hasnah Umi Zainab Kamalia Amirah Thahirah "Umaiyah Tazkia" Aisyah Anisah Balqis Badriah Afiqah Basira Fadilah Farah Ghina Hanisah Imanina Irhamna Jasmin Lutfia Laila Nabila Qairina Qistina Rania Ulfah Widad Yasmin Barirah Dzakirah Fathiah Dalilah Ezzah Fauziah Halimah Layyinah Jauharah Khalidah Qalbi Madihah Safiyyah Tasnim Rafidah Wafiyah Salma Uzma Zahra Tihani Nur Siti Kaseh Dhien Bunthok Wahida Yumna Zafirah Abirah Hafizah Dania Fatimah Hidayah Ikram Jannah Kamilah Lina Mardhiah Nafisah Qamar Raudhah Umaima Yusra Safiya Wardah Yaqutah Zahirah Aminah Jamaliah Khairunnisa Habibah Izzah Jamilah Khadijah Rasyidah Mariah Na’imah Zulaikha Rawdah Asma Bilqis Dana Faridah Lutfiah Munirah Nabilah Qisthi Saadah Thufailah Mahirah Nadira Hanisa Hamira Salsabila Syafirah Nurul Buleuen Ceudah Cut Dhien Jeumpa Maneh Qory Rayeuk Reuhat Seulawah Siron Teungku Uteun Wirda Inseuen Ahya Adrong Balot Irna Itam Kaba Indrabangsa Kisih Blet Dien Maimunah Dara Gapuak Haradewi Keumalahayati Keumala Mastini Paramecvari "Sri Alam" Puteh Meuligoe Meulu Meutia Nai Tuler Dwarawati Inong Intan Cahya Bunga Blet Ayie Ahya Mirah Yuniar
+		}
+	}
+
+}

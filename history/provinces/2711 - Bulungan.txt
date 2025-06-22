@@ -1,8 +1,5 @@
 # Bulungan
 # 2711 Bulungan - 5/16/2025 12:37:50 PM 
-add_core = BEU
-owner = BEU
-controller = BEU
 base_tax = 1
 base_production = 1
 base_manpower = 1
@@ -10,9 +7,9 @@ trade_goods = tropical_wood
 culture = kayan
 religion = kaharingan
 capital = "Bulungan"
-native_size = 3
-native_ferocity = 3
-native_hostileness = 3
+native_size = 2
+native_ferocity = 10
+native_hostileness = 10
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim
