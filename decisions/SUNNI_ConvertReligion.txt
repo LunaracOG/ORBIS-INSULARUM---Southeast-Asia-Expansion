@@ -14,7 +14,6 @@ country_decisions = {
 				culture_group = eastern_indo
 				culture_group = javanese_g
 				culture_group = dayak_g
-				culture_group = chamic_group
                	 		culture_group = sulawesi_g
 			}
 			NOT = { 
