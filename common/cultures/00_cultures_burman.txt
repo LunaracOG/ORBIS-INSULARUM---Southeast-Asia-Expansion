@@ -22,6 +22,36 @@ burman = {
 			Aggapatta Ahlwan Amerawaddy Apeyadana Arenawaddy Bo-Me Dar-Phyu Datu-Kalaya Dhamma-Dewi Dhammathiri Dhammawaddy Eindathiri Eindrawaddy Eindawthe Ekawaddy Eka-Kalaya Hla-Hlut Hla-Myat Hla-Nyet Hsinbyume Htwe-Myat Kalayawaddy Kaytumatiwaddy Kayenadewi Kayenawaddy Kethadewi Kethawaddy Khaymawaddy Khame-Mi Khin-Gyi Khin-Me Khin-Myat Khin-Myit Khin-Hpone Khin-Pu Khin-Pyezon Khin-Sanda Khin-Saw Khin-Htut Khin-Tan Kinzana-Dewi Kinzanawaddy Kodawgyi Letya Maladewi Malawaddy Manawha Manikalaya Manisanda Manithala Manithayi Maniyadanar Maryarwaddy Maykhalar Mingala-Dewi Mukdawaddy Myo-Myat Myat-Lay Natshin-Medaw Natshinmae Nanda-Dewi Nandawaddy Nant-tha Niladewi Nilasanda Nilawaddy Nyein-Oo Ommadanti Pabadewi Pabawaddy Padonmar Padonmar-Dewi Panthuzar Phyu Pwa-Saw Pwadagyi Pyei-Chantha Salaka-Dewi Sandamala Sandamani Sandamingala Sanda-Thukha Saw-Gyi Saw-Hnaung Saw-Khway Saw-Soe Soe-Min Salin-Mibaya Salin-Minthami Shwe-Einthe Sanda-Dewi Sanda-Yathi Sandawaddy Shwekodawgale Shwekodawgyi Supayagalay Supayagyi Supayalat Supayalay Ta-Lat Tara-Dewi Taramani Tarawaddy Thakhingyi Thameedawgyi Thameedawlat Thanbula Thanda-Dewi Thandawaddy Thida-Mahay Thihadewi Thihawaddy Thitawaddy Thiriwaddy Thiri-Dewi Thiri-Kalaya Thiri-Mala Thiri-Mani Thiri-Maryar Thiri-Nanda Thiri-Padonmar Thiri-Paba Thiri-Sanda Thiri-Thida Thiri-Thuwunna Thiri-Waddy Thiri-Wunna Thiri-Yadana Thonlula Thudhamma Thuganda Thuganda-Kalaya Thugandawaddy Thukhawaddy Thumanadewi Thumala Thumani Thunandar Thupaba Thupabadewi Thupadomar Thusanda Thurawaddy Thuriyadewi Thuriyawaddy Thuriya-Nandi Thu-Thida Thuwunna-Kalaya Thuwunna-Mala Thuwunna-Mani Thuwunnawaddy Thuzadewi Thuzawaddy Wadanthika Weluwaddy Wizala Wizala-Dewi Wizalawaddy Yadanawaddy Yadana-Dewi Yadana-Sagga Yadanathiri Yadanabon Yazawaddy Amara Amitha Aung Bawk Bayani Beza Chit Cho Eindra Ekari Gadau Gawa Haymar Heman Hkin Hkyairi Hkyam Hla Hla-Sein Hnin Hpon Hsan Hwe Ingyin Inzali Kalya Ketha Khway Kra Khine Khin-Swe Khin-Myo Khyo Kyaukni Kyi Lun-Thu Manyju Mani Me-Nu Marlar Maryar Mibaya Mra Mru Myat-Hla Sabai Myine Myintzu Myo Nadi Nandar Nandi Nilar Nwe Nwe-Hlaing Nwe-Soe Nyein Nyunt Ohmar Paannsee Payang Phway Phwar Thuta Phyu-San Pidauk Pulai Wah Sanda Sandi Singgi Swe-Win Tara Thandar Tharahpi Thawdar Thawka Thazin Theingi Thidar Thinzar Thiri Thitkwa Thwin Thukha Chantrea Thuzar Achariya Waddy Wittyi Yadanar Yuzana Yamin Zin Chenda Akara Anchali Arunny Ary Bopha Botum Boupha Champei Champey Chamroeun Chan Chankrisna Chanlina Chanmony Channary Chanthavy Chantou Kalliyan Chanvatey Chariya Chavy Chaya Chea Kolab Chesa Chewa Chhaiya Chhean Chhorvin Chhorvon Chivy Choum Da Daevy Dara Darareaksmey Davi Eaindrea Jorani Kalianne Kaliyanei Nary Kanleakhana Kannareth Kannitha Kanya Kesor Phary Kolthida Kravann Kun Thea Kunthea Leakena Leap Mach Makara Malis Maly Mau Mealea Mean Mliss Mony Nakry Rotha Nearidei Neary Nuon Peou Phally Savady Pheakdei Pheakkley Phhoung Pich Pisey Ponlok Ponnleu Punthea Putrea Rachana Rachany Rangsei Reach Reaksmey Reasmey Rom Chang Sophea Roumduol Roumjong Saley Samnang Samphy Soriya Sawatdee Seda Seyha Sikha Sinuon Sita Soboen Socheat Sovanna Sok Sraem Sokha Sokhanya Sokhom Sombo Sonisay Sophal Sreypich Sopheap Sopheary Sophon Sophorn Soportevy Taevy Sorpheny Sotear Sotheara Sothy Sourkea Sovanara Sovandary Sovaneary Veasna Sovannai Vimean Doung Srey Leak Mom Sreymau Sreynuon Sros Suorsdey Thavary Theary Thom Thyda Tina Toch Tola Vanna Veata Yusiyawatta Yun-San Amyahtu Banda Bilu Dala Puna Kala Kethi Ketu Khaing Sandima Kutta Lade Maha Mandala Mawla Nangyi Nu Pati Pawla Phyugyi Wunna Ran Renu Rupa Wasa Win Sitya Taing Teza Than Thiha Thila Thura Tula Zeya Ohmar Paannsee Payang Phway Bawk Cho Sajang Thuzar Sauta Heman Hkyac Linlun Manyju Thinzar Thiri Thitkwa
 		}
 	}
+	hani = {
+		primary = MMA
+		dynasty_names = {
+			"Duan" "Gao" "Meng"
+		}
+		male_names = {
+			Qizhen Qiyu Jianjun Youcheng Houzhao Houcong Zaihou Yijun Changluo Youjian Yousong Yujian Youlang Chenggong 
+			Kehshuan Biao Shuang Gang Su Zhen Fu Zi Qi Tan Chun Bai Gui Zhi Quan Pian Hui Song Mo Ying Jing Dang Nan 
+			Gaoxu Caosui Gauxi Youyuan Youlun Youbin Houwei Youxiao Youji Youxue Youyi Youshan Cixuan Cijiang Cizhao 
+			Cihuan Cican He Ji Da Yuchun
+		}
+		female_names = {
+			Heying Chunmei Tianhui Kon Mao Yuying Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen
+		}
+	}
+	yi = {
+		primary = CYI
+		dynasty_names = {
+			"An" "She" "Liu" "Longzan" "Feng" "Pu"
+		}
+		male_names = {
+			Qizhen Qiyu Jianjun Youcheng Houzhao Houcong Zaihou Yijun Changluo Youjian Yousong Yujian Youlang Chenggong 
+			Kehshuan Biao Shuang Gang Su Zhen Fu Zi Qi Tan Chun Bai Gui Zhi Quan Pian Hui Song Mo Ying Jing Dang Nan 
+			Gaoxu Caosui Gauxi Youyuan Youlun Youbin Houwei Youxiao Youji Youxue Youyi Youshan Cixuan Cijiang Cizhao 
+			Cihuan Cican He Ji Da Yuchun
+		}
+		female_names = {
+			Heying Chunmei Tianhui Kon Mao Yuying Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen
+		}
+	}
 	chin = {
 		primary = BNG
 		dynasty_names = {
