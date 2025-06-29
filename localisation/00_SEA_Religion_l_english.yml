@@ -3,22 +3,22 @@ bathala:0 "Bathala"
 bathala_desc:0 "Bathala, the supreme creator and sky deity, governs the cosmos and bestows divine authority upon rulers. His favor legitimizes power and secures prosperity across the realm."
 
 idiyanale:0 "Idiyana"
-idiyanale_desc:0 "Idiyanale, goddess of labor, agriculture, and craft, blesses the land with fertility and industrious spirit. Her guidance yields bountiful harvests and economic vitality."
+idiyanale_desc:0 "Idiyanale, deity of labor, agriculture, and craft, blesses the land with fertility and industrious spirit. Her guidance yields bountiful harvests and economic vitality."
 
 amanikable:0 "Amanika"
-amanikable_desc:0 "Amanikable, god of the sea and tempests, rules the waves and commands respect from mariners. His protection ensures maritime dominance and safe passage for trade and fleets."
+amanikable_desc:0 "Amanikable, deity of the sea and tempests, rules the waves and commands respect from mariners. His protection ensures maritime dominance and safe passage for trade and fleets."
 
 mayari:0 "Mayari"
-mayari_desc:0 "Mayari, goddess of the moon and rightful war, governs balance and strength. Her grace brings order to battlefields, bolstering the discipline and resolve of defenders."
+mayari_desc:0 "Mayari, deity of the moon and rightful war, governs balance and strength. Her grace brings order to battlefields, bolstering the discipline and resolve of defenders."
 
 apolaki:0 "Apolaki"
-apolaki_desc:0 "Apolaki, god of the sun and valorous war, shines upon warriors with courage and fire. His blessing inspires martial prowess and safeguards military tradition."
+apolaki_desc:0 "Apolaki, deity of the sun and valorous war, shines upon warriors with courage and fire. His blessing inspires martial prowess and safeguards military tradition."
 
 lakampati:0 "Lakampa"
 lakampati_desc:0 "Lakampati, deity of fertility and abundance, nurtures growth in land and people alike. Their favor sustains harmony, population, and peace within the realm."
 
 manggagaway:0 "Gagaway"
-manggagaway_desc:0 "Manggagaway, goddess of dark arts and sorcery, Gagaway uses trickery, curses, and illusions to influence events from the shadows. Her devotees excel in espionage and covert expansion, striking unseen."
+manggagaway_desc:0 "Manggagaway, deity of dark arts and sorcery, Gagaway uses trickery, curses, and illusions to influence events from the shadows. Her devotees excel in espionage and covert expansion, striking unseen."
 
 sitan:0 "Sitan"
 sitan_desc:0 "Sitan, lord of the underworld and judge of souls, governs the unseen realms of order and corruption. Through his influence, the state maintains hidden control, suppressing unrest and governing efficiently."
@@ -30,21 +30,21 @@ dumakulem:0 "Dumakul"
 dumakulem_desc:0 "Dumakulem, guardian of mountains and forests, brings resilience and punishing attrition to those who trespass. His spirit fortifies the land with the untamed wrath of nature."
 
 masalanta:0 "Masalan"
-masalanta_desc:0 "Masalanta, goddess of love, peace, and harmony, calms the storms of conflict and fosters reconciliation. Under her favor, diplomacy flourishes and strife fades."
+masalanta_desc:0 "Masalanta, deity of love, peace, and harmony, calms the storms of conflict and fosters reconciliation. Under her favor, diplomacy flourishes and strife fades."
 
 dumangan:0 "Dumanga"
 dumangan_desc:0 "Dumangan, deity of good harvests and seasonal bounty, brings fertility and plenty. His favor enriches trade and prosperity across the land, feeding both people and economy."
 
 
 anito:0 "Anitohan"
-anito_religion_desc:0 "Anito is the indigenous religious system of the precolonial Philippine archipelago, characterized by the veneration of ancestral spirits, nature deities, and guardian entities. Ritual offerings, spirit mediums (babaylan), and sacred sites such as balete trees and river confluences are central to worship. Rather than a pantheon of gods, Anito comprises a diverse spiritual ecology tied closely to lineage, land, and daily survival, where ancestral favor determines prosperity, health, and harmony. This religion reflects a decentralized, animist worldview deeply rooted in Austronesian maritime traditions."
+anito_religion_desc:0 "Anito is the indigenous religious system of the precolonial Philippine archipelago, characterized by the veneration of ancestral spirits, nature deities, and guardian entities. Ritual offerings, spirit mediums (babaylan), and sacred sites such as balete trees and river confluences are central to worship. Rather than a pantheon of deitys, Anito comprises a diverse spiritual ecology tied closely to lineage, land, and daily survival, where ancestral favor determines prosperity, health, and harmony. This religion reflects a decentralized, animist worldview deeply rooted in Austronesian maritime traditions."
 
 
 hyang_padi:0 "Dewi"
-hyang_padi_desc:0 "Hyang Padi, also known as Dewi Sri, is the goddess of rice, fertility, and life. As the lifeblood of the agrarian societies of the archipelago, her blessings ensure bountiful harvests, peace in the villages, and harmony with nature."
+hyang_padi_desc:0 "Hyang Padi, also known as Dewi Sri, is the deity of rice, fertility, and life. As the lifeblood of the agrarian societies of the archipelago, her blessings ensure bountiful harvests, peace in the villages, and harmony with nature."
 
 sunan_ambu:0 "Ambu"
-sunan_ambu_desc:0 "Sunan Ambu is the nurturing mother goddess of the Sundanese people. Dwelling in the heavenly realm, she is the guardian of moral order, family lineage, and children, offering divine wisdom and stability to her devotees."
+sunan_ambu_desc:0 "Sunan Ambu is the nurturing mother deity of the Sundanese people. Dwelling in the heavenly realm, she is the guardian of moral order, family lineage, and children, offering divine wisdom and stability to her devotees."
 
 ananthaboga:0 "Boga"
 ananthaboga_desc:0 "Ananthaboga, the primordial world serpent, lies beneath the earth, coiling in silence. In Balinese belief, he supports the physical world and embodies subterranean wealth, stability, and hidden knowledge."
@@ -67,31 +67,31 @@ diwathan_religion_desc:0 "Anito is the indigenous spiritual tradition of the pre
 
 
 kaptan:0 "Kaptan"
-kaptan_desc:0 "Kaptan is the supreme god of the sky in Visayan mythology. As the ruler of the heavens and keeper of cosmic order, he grants legitimacy and authority to rulers, ensuring the stability of realms under his divine gaze."
+kaptan_desc:0 "Kaptan is the supreme deity of the sky in Visayan mythology. As the ruler of the heavens and keeper of cosmic order, he grants legitimacy and authority to rulers, ensuring the stability of realms under his divine gaze."
 
 burigadang:0 "Burigad"
-burigadang_desc:0 "Burigadang Pada Sinaklang Bulawan is the goddess of wealth and greed, known for her insatiable desire for gold and riches. Worship of her promises prosperity, though often laced with cautionary tales of avarice."
+burigadang_desc:0 "Burigadang Pada Sinaklang Bulawan is the deity of wealth and greed, known for her insatiable desire for gold and riches. Worship of her promises prosperity, though often laced with cautionary tales of avarice."
 
 barangaw:0 "Barangaw"
 barangaw_desc:0 "Barangaw is the deity of storms, war, and rainbows—powerful celestial phenomena linked to divine wrath and omens. Warriors invoke Barangaw for strength in battle and the fury of the tempest."
 
 lidagat:0 "Lidagat"
-lidagat_desc:0 "Lidagat is the ancient sea goddess, mother of primordial deities, and guardian of the oceans. Mariners and explorers offer her prayers for safe voyages and mastery of the shifting tides."
+lidagat_desc:0 "Lidagat is the ancient sea deity, mother of primordial deities, and guardian of the oceans. Mariners and explorers offer her prayers for safe voyages and mastery of the shifting tides."
 
 magayon:0 "Magayon"
-magayon_desc:0 "Magayon, whose name means 'beautiful,' is a goddess of nature, abundance, and serenity, derived from the legend of Mount Mayon. Her presence brings fertile lands and peace, but her passion can stir volcanic wrath."
+magayon_desc:0 "Magayon, whose name means 'beautiful,' is a deity of nature, abundance, and serenity, derived from the legend of Mount Mayon. Her presence brings fertile lands and peace, but her passion can stir volcanic wrath."
 
 dalikmata:0 "Dalikma"
-dalikmatadesc:0 "Dalikmata is the goddess of omens and eye-related ailments. Possessing countless eyes, she is ever-watchful, granting visions and forewarnings to those sensitive to the unseen threads of fate."
+dalikmata_desc:0 "Dalikmata is the deity of omens and eye-related ailments. Possessing countless eyes, she is ever-watchful, granting visions and forewarnings to those sensitive to the unseen threads of fate."
 
 magwayen:0 "Magwyen"
-magwayen_desc:0 "Magwayen is the ancient Visayan goddess of death and the sea of souls. She guides departed spirits to Sulad, the afterlife, ensuring peaceful passage and protecting the balance between life and death."
+magwayen_desc:0 "Magwayen is the ancient Visayan deity of death and the sea of souls. She guides departed spirits to Sulad, the afterlife, ensuring peaceful passage and protecting the balance between life and death."
 
 libulan:0 "Libulan"
-libulan_desc:0 "Libulan is the youthful god of the moon, often associated with beauty, mystery, and nonconformity. In some tales, he is linked with themes of identity and gender variance, making him a symbol of personal truth and inner harmony."
+libulan_desc:0 "Libulan is the youthful deity of the moon, often associated with beauty, mystery, and nonconformity. In some tales, it is linked with themes of identity and gender variance, making him a symbol of personal truth and inner harmony."
 
 lihangin:0 "Lihangin"
-lihangin_desc:0 "Lihangin, the deity of wind and breath, fills the sails of ships and guides the migration of peoples. His invisible presence brings both freedom and direction to those who follow the horizon."
+lihangin_desc:0 "Lihangin, the deity of wind and breath, fills the sails of ships and guides the migration of peoples. Its invisible presence brings both freedom and direction to those who follow the horizon."
 
 ribbung_linti:0 "Ribulint"
 ribbung_linti_desc:0 "Ribung Linti is the embodiment of lightning and destructive force. Striking with divine precision, he is honored by warriors and feared for his sudden fury—an agent of both punishment and purification."
