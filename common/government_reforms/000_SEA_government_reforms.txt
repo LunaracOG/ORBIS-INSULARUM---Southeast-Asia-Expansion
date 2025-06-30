@@ -390,6 +390,8 @@ maritime_aristocracy  = {
 	}
 }
 
+#
+
 warrior_chieftaincy = {
 	icon = "warrior_chieftaincy"
 	lock_level_when_selected = yes
@@ -448,7 +450,6 @@ warrior_chieftaincy = {
 	}
 	duration = 8
 }
-
 
 highland_chieftaincy = {
 	icon = "highland_chieftaincy"
@@ -511,8 +512,7 @@ highland_chieftaincy = {
 	duration = 8
 }
 
-
-####################
+#
 
 bobato_sultanate = {
     icon = "bobato_sultanate"
