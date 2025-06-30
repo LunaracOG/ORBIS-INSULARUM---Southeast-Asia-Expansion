@@ -231,7 +231,7 @@ barangay_oligarchic = {
 #highland_aristocracy
 
 maritime_muslim_aristocracy  = {
-	icon = maritime_aristocracy
+	icon = maritime_muslim_aristocracy
 	allow_normal_conversion = no
 	lock_level_when_selected = yes
 	custom_attributes = {
