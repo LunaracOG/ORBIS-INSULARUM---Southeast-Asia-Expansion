@@ -721,4 +721,4 @@ imperial_mandala = {
     free_concentrate_development = yes
 }
 
-#Make new things for Mainland.. ah..
+#Make new things for Mainland.. ah...
