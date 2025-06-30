@@ -10,6 +10,7 @@ adat_minangkabau = {
 	potential = {
 		OR = {
 			primary_culture = minag
+			culture_group = sumatran_g
 		}
 	}
 	nation_designer_trigger = {
@@ -52,7 +53,7 @@ malayan_plutocracy_reform = {
 	}
 	potential = {
 		OR = {
-			culture = melayu
+			culture_group = malay
 		}
 	}
 	trigger = {
@@ -239,7 +240,12 @@ maritime_muslim_aristocracy  = {
 	potential = {
 		OR = {
 			culture_group = sulawesi_g
+			culture_group = sumatran_g
 			culture_group = filipino_g
+			culture_group = dayak_g
+			culture_group = aslian
+			culture_group = eastern_indo
+			culture_group = javanese_g
 			culture_group = malay
 		}
 	}
@@ -317,7 +323,12 @@ maritime_aristocracy  = {
 	potential = {
 		OR = {
 			culture_group = sulawesi_g
+			culture_group = sumatran_g
 			culture_group = filipino_g
+			culture_group = dayak_g
+			culture_group = aslian
+			culture_group = eastern_indo
+			culture_group = javanese_g
 			culture_group = malay
 		}
 	}
@@ -390,14 +401,24 @@ warrior_chieftaincy = {
 	potential = {
 		OR = {
 			culture_group = sulawesi_g
+			culture_group = sumatran_g
 			culture_group = filipino_g
+			culture_group = dayak_g
+			culture_group = aslian
+			culture_group = eastern_indo
+			culture_group = javanese_g
 			culture_group = malay
 		}
 	}
 	trigger = {
 		OR = {
 			culture_group = sulawesi_g
+			culture_group = sumatran_g
 			culture_group = filipino_g
+			culture_group = dayak_g
+			culture_group = aslian
+			culture_group = eastern_indo
+			culture_group = javanese_g
 			culture_group = malay
 		}
 	}
@@ -437,14 +458,24 @@ highland_chieftaincy = {
 	potential = {
 		OR = {
 			culture_group = sulawesi_g
+			culture_group = sumatran_g
 			culture_group = filipino_g
+			culture_group = dayak_g
+			culture_group = aslian
+			culture_group = eastern_indo
+			culture_group = javanese_g
 			culture_group = malay
 		}
 	}
 	trigger = {
 		OR = {
 			culture_group = sulawesi_g
+			culture_group = sumatran_g
 			culture_group = filipino_g
+			culture_group = dayak_g
+			culture_group = aslian
+			culture_group = eastern_indo
+			culture_group = javanese_g
 			culture_group = malay
 		}
 	}
@@ -490,6 +521,7 @@ bobato_sultanate = {
     can_change_primary_culture = no
     potential = {
         OR = {
+			culture_group = eastern_indo
 			tag = JLO
 			tag = TID
 			tag = TER
@@ -497,6 +529,7 @@ bobato_sultanate = {
     }
 	trigger = {
 		OR = {
+			culture_group = eastern_indo
 			tag = JLO
 			tag = TID
 			tag = TER
