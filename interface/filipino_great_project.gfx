@@ -4,24 +4,20 @@ spriteTypes = {
 		texturefile = "gfx//interface//great_projects//great_project_banaue_rice_terraces.dds"
 	}
 	spriteType = {
-		name = "GFX_great_project_chocolate_hills"
-		texturefile = "gfx//interface//great_projects//great_project_chocolate_hills.dds"
-	}
-	spriteType = {
-		name = "GFX_great_project_malakanyang"
-		texturefile = "gfx//interface//great_projects//great_project_malakanyang.dds"
-	}
-	spriteType = {
 		name = "GFX_great_project_mayon_volcano"
 		texturefile = "gfx//interface//great_projects//great_project_mayon_volcano.dds"
 	}
 	spriteType = {
-		name = "GFX_great_project_taal_volcano"
-		texturefile = "gfx//interface//great_projects//great_project_taal_volcano.dds"
+		name = "GFX_great_project_taal_church"
+		texturefile = "gfx//interface//great_projects//great_project_taal_church.dds"
 	}
 	spriteType = {
-		name = "GFX_great_project_underground_river"
-		texturefile = "gfx//interface//great_projects//great_project_underground_river.dds"
+		name = "GFX_great_project_cebu_fort"
+		texturefile = "gfx//interface//great_projects//great_project_cebu_fort.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_intramuros"
+		texturefile = "gfx//interface//great_projects//great_project_intramuros.dds"
 	}
 	spriteType = {
 		name = "GFX_great_project_bajang_ratu_gate"
