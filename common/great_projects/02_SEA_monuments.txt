@@ -1015,27 +1015,30 @@ lore_lindu_megaliths = {
 	}
 }
 
-mrauk_u
-wat_phra_sri
-pha_that_luang
-sea_melaka_palace
-plain_of_jars
-sea_kinabalu
-sukhothai
-my_son
+#Mainland
+mrauk_u = {
+wat_phra_sri = {
+pha_that_luang = {
+sukhothai = {
+plain_of_jars = {
 
-muaratakus_stupa
+#MLC tag only
+sea_melaka_palace = {
 
-manila_cathedral
+#Borneo
+sea_kinabalu = {
 
+#Make Western tech only. Prob
+intramuros = {
+fort_san_pedro = {
+fort_rotterdam = {
+batavia = {
+manila_cathedral = {
 
-intramuros
-fort_san_pedro
-fort_rotterdam
-citad_el_thang
-chocolate_hills
-candi_sewu
-bromo_semeru
+#Vietnam
+citad_el_thang = {
+my_son = {
 
-batavia
-
+#Java
+candi_sewu = {
+bromo_semeru = {
