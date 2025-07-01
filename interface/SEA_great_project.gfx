@@ -1,0 +1,122 @@
+spriteTypes = {
+spriteType = {
+		name = "GFX_great_project_banaue_rice_terraces"
+		texturefile = "gfx//interface//great_projects//great_project_banaue_rice_terraces.dds"
+}
+spriteType = {
+		name = "GFX_great_project_chocolate_hills"
+		texturefile = "gfx//interface//great_projects//great_project_chocolate_hills.dds"
+}
+spriteType = {
+		name = "GFX_great_project_malakanyang"
+		texturefile = "gfx//interface//great_projects//great_project_malakanyang.dds"
+}
+spriteType = {
+		name = "GFX_great_project_mayon_volcano"
+		texturefile = "gfx//interface//great_projects//great_project_mayon_volcano.dds"
+}
+spriteType = {
+		name = "GFX_great_project_taal_volcano"
+		texturefile = "gfx//interface//great_projects//great_project_taal_volcano.dds"
+}
+spriteType = {
+		name = "GFX_great_project_underground_river"
+		texturefile = "gfx//interface//great_projects//great_project_underground_river.dds"
+}
+spriteType = {
+		name = "GFX_great_project_bajang_ratu_gate"
+		texturefile = "gfx//interface//great_projects//great_project_bajang_ratu_gate.dds"
+}	
+spriteType = {
+    name = "GFX_great_project_muara_takus_stupa"
+    texturefile = "gfx/interface/great_projects/great_project_muara_takus_stupa.dds"
+}
+spriteType = {
+    name = "GFX_great_project_batu_caves_monument"
+    texturefile = "gfx/interface/great_projects/great_project_batu_caves_monument.dds" 
+}
+spriteType = {
+    name = "GFX_great_project_istano_basa_pagaruyung"
+    texturefile = "gfx/interface/great_projects/great_project_istano_basa_pagaruyung.dds"
+}
+spriteType = {
+    name = "GFX_great_project_muaro_jambi_temple_complex"
+    texturefile = "gfx/interface/great_projects/great_project_muaro_jambi_temple_complex.dds"
+}
+spriteType = {
+	name = "GFX_great_project_lore_lindu_megaliths"
+	texturefile = "gfx/interface/great_projects/great_project_lore_lindu_megaliths.dds"
+}
+spriteType = {
+	name = "GFX_great_project_mrauk_u"
+	texturefile = "gfx/interface/great_projects/great_project_mrauk_u.dds"
+}
+spriteType = {
+	name = "GFX_great_project_wat_phra_sri"
+	texturefile = "gfx/interface/great_projects/great_project_wat_phra_sri.dds"
+}
+spriteType = {
+	name = "GFX_great_project_pha_that_luang"
+	texturefile = "gfx/interface/great_projects/great_project_pha_that_luang.dds"
+}
+spriteType = {
+	name = "GFX_great_project_sea_melaka_palace"
+	texturefile = "gfx/interface/great_projects/great_project_sea_melaka_palace.dds"
+}
+spriteType = {
+	name = "GFX_great_project_plain_of_jars"
+	texturefile = "gfx/interface/great_projects/great_project_plain_of_jars.dds"
+}
+spriteType = {
+	name = "GFX_great_project_sea_kinabalu"
+	texturefile = "gfx/interface/great_projects/great_project_sea_kinabalu.dds"
+}
+spriteType = {
+	name = "GFX_great_project_sukhothai"
+	texturefile = "gfx/interface/great_projects/great_project_sukhothai.dds"
+}
+spriteType = {
+	name = "GFX_great_project_my_son"
+	texturefile = "gfx/interface/great_projects/great_project_my_son.dds"
+}
+spriteType = {
+	name = "GFX_great_project_muaratakus_stupa"
+	texturefile = "gfx/interface/great_projects/great_project_muaratakus_stupa.dds"
+}
+spriteType = {
+	name = "GFX_great_project_manila_cathedral"
+	texturefile = "gfx/interface/great_projects/great_project_manila_cathedral.dds"
+}
+spriteType = {
+	name = "GFX_great_project_intramuros"
+	texturefile = "gfx/interface/great_projects/great_project_intramuros.dds"
+}
+spriteType = {
+	name = "GFX_great_project_fort_san_pedro"
+	texturefile = "gfx/interface/great_projects/great_project_fort_san_pedro.dds"
+}
+spriteType = {
+	name = "GFX_great_project_fort_rotterdam"
+	texturefile = "gfx/interface/great_projects/great_project_fort_rotterdam.dds"
+}
+spriteType = {
+	name = "GFX_great_project_citad_el_thang"
+	texturefile = "gfx/interface/great_projects/great_project_citad_el_thang.dds"
+}
+spriteType = {
+	name = "GFX_great_project_chocolate_hills"
+	texturefile = "gfx/interface/great_projects/great_project_chocolate_hills.dds"
+}
+spriteType = {
+	name = "GFX_great_project_candi_sewu"
+	texturefile = "gfx/interface/great_projects/great_project_candi_sewu.dds"
+}
+spriteType = {
+	name = "GFX_great_project_bromo_semeru"
+	texturefile = "gfx/interface/great_projects/great_project_bromo_semeru.dds"
+}
+spriteType = {
+	name = "GFX_great_project_batavia"
+	texturefile = "gfx/interface/great_projects/great_project_batavia.dds"
+}
+}
