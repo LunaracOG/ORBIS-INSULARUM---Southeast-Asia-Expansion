@@ -267,96 +267,53 @@ banaue_rice_terraces = {
 	}
 
 	tier_1 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
+		upgrade_time = { months = 120 }
+		cost_to_upgrade = { factor = 1000 }
 
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
+		province_modifiers = { }
 
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
-			local_autonomy = -0.01
+			production_efficiency = 0.05
 		}
 
-		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
 			idea_cost = -0.05
 		}
 
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 5
-			}
-		}
+		on_upgraded = { }
 	}
 
 	tier_2 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 240
-		}
+		upgrade_time = { months = 240 }
+		cost_to_upgrade = { factor = 3500 }
 
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 3500
-		}
+		province_modifiers = { }
 
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
-			local_autonomy = -0.025
+			production_efficiency = 0.10
+			local_production_efficiency = 0.05
 		}
 
-		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
 			culture_conversion_cost = -0.1
 			idea_cost = -0.1
-			reform_progress_growth = 0.1	
+			reform_progress_growth = 0.1
 		}
 
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 10
-			}
-		}
+		on_upgraded = { }
 	}
 
 	tier_3 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 480
-		}
+		upgrade_time = { months = 480 }
+		cost_to_upgrade = { factor = 7000 }
 
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 7000
-		}
+		province_modifiers = { }
 
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
-			local_autonomy = -0.05
+			production_efficiency = 0.15
+			local_development_cost = -0.05
 		}
 
-		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
 			culture_conversion_cost = -0.25
 			num_accepted_cultures = 1
@@ -368,8 +325,8 @@ banaue_rice_terraces = {
 		#what effects happen when this tier is achieved
 		on_upgraded = {
 			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 15
+				estate = estate_burghers
+				loyalty = 10
 			}
 		}
 	}
@@ -804,10 +761,7 @@ istano_basa_pagaruyung = {
             governing_capacity_modifier = 0.15
             local_monthly_devastation = -0.05
         }
-        area_modifier = {
-            local_tax_modifier = 0.05
-            local_monthly_devastation = -0.03
-        }
+        area_modifier = { }
         country_modifiers = {
             legitimacy = 2
             prestige = 1
@@ -1103,6 +1057,7 @@ mrauk_u = {
         province_modifiers = {
             local_tax_modifier = 0.10
             development_cost   = -0.10
+	    local_manpower_modifier = 0.10
         }
         area_modifier      = { }
         country_modifiers  = {
@@ -1117,7 +1072,7 @@ mrauk_u = {
         province_modifiers = {
             local_tax_modifier       = 0.15
             development_cost         = -0.15
-            local_monthly_devastation = -0.05
+	    local_manpower_modifier = 0.15
         }
         area_modifier = {
             local_tax_modifier       = 0.05
@@ -1206,7 +1161,8 @@ wat_phra_sri = {
         }
         area_modifier      = { }
         country_modifiers  = {
-			monthly_karma = 0.05  #(buddhist)
+	    prestige = 0.25
+	    monthly_karma = 0.05  #(buddhist)
 		 }
         on_upgraded        = { }
     }
@@ -1218,9 +1174,12 @@ wat_phra_sri = {
             local_tax_modifier = 0.10
             development_cost   = -0.10
         }
-        area_modifier      = { }
+        area_modifier      = {
+	    local_tax_modifier = 0.05
+	}
         country_modifiers  = {
-			monthly_karma = 0.1  #(buddhist)
+	    prestige = 0.5
+	    monthly_karma = 0.1  #(buddhist)
 		 }
         on_upgraded        = { }
     }
@@ -1231,7 +1190,7 @@ wat_phra_sri = {
         province_modifiers = {
             local_tax_modifier       = 0.15
             development_cost         = -0.15
-            local_monthly_devastation = -0.05
+            local_missionary_strength = 0.05
         }
         area_modifier = {
             local_tax_modifier       = 0.05
@@ -1239,6 +1198,7 @@ wat_phra_sri = {
         }
         country_modifiers = {
             prestige      = 0.5
+	    idea_cost = -0.05
             monthly_karma = 0.15  # reflects Buddhist significance
         }
         on_upgraded     = { }
@@ -1314,12 +1274,13 @@ pha_that_luang = {    # province it starts in (Muara Takus region)
         upgrade_time      = { months = 100 }
         cost_to_upgrade   = { factor = 700 }
         province_modifiers = {
-			local_tax_modifier = 0.05
-			development_cost   = -0.05
+            local_tax_modifier = 0.5
+            local_unrest = -1
         }
         area_modifier      = { }
         country_modifiers  = {
-			monthly_karma = 0.05  #(buddhist)
+			prestige = 0.25
+			monthly_karma = 0.05
 		 }
         on_upgraded        = { }
     }
@@ -1329,10 +1290,11 @@ pha_that_luang = {    # province it starts in (Muara Takus region)
         cost_to_upgrade   = { factor = 2000 }
         province_modifiers = {
             local_tax_modifier = 0.10
-            development_cost   = -0.10
+            local_unrest = -2
         }
         area_modifier      = { }
         country_modifiers  = {
+			prestige = 0.5
 			monthly_karma = 0.1  #(buddhist)
 		 }
         on_upgraded        = { }
@@ -1343,7 +1305,7 @@ pha_that_luang = {    # province it starts in (Muara Takus region)
         cost_to_upgrade   = { factor = 5000 }
         province_modifiers = {
             local_tax_modifier       = 0.15
-            development_cost         = -0.15
+            local_unrest = -2
             local_monthly_devastation = -0.05
         }
         area_modifier = {
@@ -1352,6 +1314,7 @@ pha_that_luang = {    # province it starts in (Muara Takus region)
         }
         country_modifiers = {
             prestige      = 0.5
+	    reform_progress_growth = 0.05
             monthly_karma = 0.15  # reflects Buddhist significance
         }
         on_upgraded     = { }
@@ -1433,6 +1396,7 @@ sukhothai = {
         }
         area_modifier      = { }
         country_modifiers  = {
+			idea_cost = -0.025
 			monthly_karma = 0.05  #(buddhist)
 		 }
         on_upgraded        = { }
@@ -1447,6 +1411,7 @@ sukhothai = {
         }
         area_modifier      = { }
         country_modifiers  = {
+			idea_cost = -0.05
 			monthly_karma = 0.1  #(buddhist)
 		 }
         on_upgraded        = { }
@@ -1458,7 +1423,7 @@ sukhothai = {
         province_modifiers = {
             local_tax_modifier       = 0.15
             development_cost         = -0.15
-            local_monthly_devastation = -0.05
+            local_unrest = -1
         }
         area_modifier = {
             local_tax_modifier       = 0.05
@@ -1466,6 +1431,7 @@ sukhothai = {
         }
         country_modifiers = {
             prestige      = 0.5
+	    innovativeness_gain = 0.01
             monthly_karma = 0.15  # reflects Buddhist significance
         }
         on_upgraded     = { }
@@ -1562,7 +1528,7 @@ plain_of_jars = {	# province it starts in (Lore Lindu region, Sulawesi)
 			tolerance_heathen = 1
 			tolerance_heretic = 1
 			stability_cost_modifier = -0.15
-			nobles_loyalty_modifier = 0.15
+			num_accepted_cultures = 1
 		}
 		on_upgraded = { }
 	}
@@ -1668,6 +1634,7 @@ sea_melaka_palace = {
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
 			local_defensiveness = 0.25
+			local_trade_power = 0.05
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -1705,6 +1672,7 @@ sea_melaka_palace = {
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
 			local_defensiveness = 0.25
+			local_trade_power = 0.10
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -1743,6 +1711,7 @@ sea_melaka_palace = {
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
 			local_defensiveness = 0.25
+			local_trade_power = 0.15
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -1754,6 +1723,7 @@ sea_melaka_palace = {
 		country_modifiers = {
 			prestige = 0.5
 			drill_gain_modifier = 0.5
+			diplomatic_reputation = 2
 		}
 
 		#what effects happen when this tier is achieved
@@ -2067,7 +2037,8 @@ intramuros = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			local_defensiveness = 0.25
+			local_defensiveness = 0.05
+			local_unrest = -1
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -2077,6 +2048,7 @@ intramuros = {
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
 			prestige = 0.1
+			innovativeness_gain = 0.01
 			drill_gain_modifier = 0.1
 		}
 
@@ -2104,7 +2076,9 @@ intramuros = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			local_defensiveness = 0.25
+			local_defensiveness = 0.15
+			local_unrest = -2
+			local_tax_modifier = 0.1
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -2143,6 +2117,9 @@ intramuros = {
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
 			local_defensiveness = 0.25
+			local_unrest = -3
+			local_tax_modifier = 0.2
+			development_cost = -0.1
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -2154,6 +2131,7 @@ intramuros = {
 		country_modifiers = {
 			prestige = 0.5
 			drill_gain_modifier = 0.5
+			diplomatic_reputation = 1
 		}
 
 		#what effects happen when this tier is achieved
@@ -2352,6 +2330,8 @@ fort_san_pedro = {
 		country_modifiers = {
 			prestige = 0.5
 			drill_gain_modifier = 0.5
+			army_tradition = 0.25
+			global_trade_power = 0.1
 		}
 
 		#what effects happen when this tier is achieved
@@ -2359,7 +2339,7 @@ fort_san_pedro = {
 			owner = {
 				add_estate_loyalty = {
 					estate = estate_nobles
-					loyalty = 15
+					loyalty = 10
 				}
 			}
 		}
@@ -2464,6 +2444,7 @@ fort_rotterdam = {
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
 			local_defensiveness = 0.25
+			fort_maintenance_modifier = -0.05
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -2474,6 +2455,7 @@ fort_rotterdam = {
 		country_modifiers = {
 			prestige = 0.1
 			drill_gain_modifier = 0.1
+			global_trade_power = 0.05
 		}
 
 		#what effects happen when this tier is achieved
@@ -2501,6 +2483,7 @@ fort_rotterdam = {
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
 			local_defensiveness = 0.25
+			fort_maintenance_modifier = -0.10
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -2512,6 +2495,7 @@ fort_rotterdam = {
 		country_modifiers = {
 			prestige = 0.25
 			drill_gain_modifier = 0.3
+			global_trade_power = 0.1
 		}
 
 		#what effects happen when this tier is achieved
@@ -2539,6 +2523,7 @@ fort_rotterdam = {
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
 			local_defensiveness = 0.25
+			fort_maintenance_modifier = -0.15
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -2550,6 +2535,7 @@ fort_rotterdam = {
 		country_modifiers = {
 			prestige = 0.5
 			drill_gain_modifier = 0.5
+			global_trade_power = 0.10
 		}
 
 		#what effects happen when this tier is achieved
@@ -2661,6 +2647,7 @@ batavia = {	# province it starts in
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
 			local_defensiveness = 0.25
+			local_trade_power = 0.2
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -2747,6 +2734,7 @@ batavia = {	# province it starts in
 		country_modifiers = {
 			prestige = 0.5
 			drill_gain_modifier = 0.5
+			global_trade_power = 0.1
 		}
 
 		#what effects happen when this tier is achieved
@@ -2760,12 +2748,12 @@ batavia = {	# province it starts in
 		}
 	}
 }
-manila_cathedral = {
+taal_basilica = {
 	# province it starts in
 	start = 656
 	
 	# date built in real life (so anything built during game time will be there if you start a game after that date)
-	date = 1581.01.01 #1581 1591 1600–1700s big one 1879–1945 right now: Post-1958
+	date = 1572.01.01 # modern church built in 1865
 	
 	#time to build
 	time = {
@@ -2864,6 +2852,7 @@ manila_cathedral = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			local_unrest = -1
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -2873,13 +2862,19 @@ manila_cathedral = {
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
 			appoint_cardinal_cost = -0.05
-			curia_powers_cost = -0.05			
+			curia_powers_cost = -0.05	
+			global_missionary_strength = 0.05
 		}
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_church
+					loyalty = 10
+				}
+			}
 		}
-	}
 
 	tier_2 = {
 		#time to upgrade to this level (0 for tier 0)
@@ -2894,6 +2889,8 @@ manila_cathedral = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			local_unrest = -2
+			local_tax_modifier = 0.1
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -2905,6 +2902,7 @@ manila_cathedral = {
 			appoint_cardinal_cost = -0.1
 			curia_powers_cost = -0.1
 			idea_cost = -0.05
+			global_missionary_strength = 0.1
 		}
 
 		#what effects happen when this tier is achieved
@@ -2931,6 +2929,8 @@ manila_cathedral = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			local_unrest = -3
+			local_tax_modifier = 0.15
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -3254,7 +3254,8 @@ my_son = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			local_defensiveness = 0.25
+			local_unrest = -1
+			local_tax_modifier = 0.1
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -3264,14 +3265,14 @@ my_son = {
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
 			prestige = 0.1
-			drill_gain_modifier = 0.1
+			idea_cost = -0.025
 		}
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
 			owner = {
 				add_estate_loyalty = {
-					estate = estate_nobles
+					estate = estate_church
 					loyalty = 5
 				}
 			}
@@ -3291,25 +3292,26 @@ my_son = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			local_defensiveness = 0.25
+			local_unrest = -2
+			local_tax_modifier = 0.1
+			local_development_cost = -0.05
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
-			local_defensiveness = 0.1
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			prestige = 0.25
-			drill_gain_modifier = 0.3
+			prestige = 0.5
+			idea_cost = -0.05
 		}
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
 			owner = {
 				add_estate_loyalty = {
-					estate = estate_nobles
+					estate = estate_church
 					loyalty = 10
 				}
 			}
@@ -3329,25 +3331,28 @@ my_son = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			local_defensiveness = 0.25
+			local_unrest = -3
+			local_development_cost = -0.1
+			local_tax_modifier = 0.1
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
-			local_defensiveness = 0.25
+			local_defensiveness = 0.1
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			prestige = 0.5
-			drill_gain_modifier = 0.5
+			prestige = 1
+			idea_cost = -0.1
+			num_accepted_cultures = 1
 		}
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {	
 			owner = {
 				add_estate_loyalty = {
-					estate = estate_nobles
+					estate = estate_church
 					loyalty = 15
 				}
 			}
@@ -3429,6 +3434,7 @@ candi_sewu = {
         province_modifiers = {
 			local_tax_modifier = 0.05
 			development_cost   = -0.05
+			local_institution_spread = 0.05
         }
         area_modifier      = { }
         country_modifiers  = {
@@ -3443,6 +3449,7 @@ candi_sewu = {
         province_modifiers = {
             local_tax_modifier = 0.10
             development_cost   = -0.10
+	    local_institution_spread = 0.1
         }
         area_modifier      = { }
         country_modifiers  = {
@@ -3457,7 +3464,7 @@ candi_sewu = {
         province_modifiers = {
             local_tax_modifier       = 0.15
             development_cost         = -0.15
-            local_monthly_devastation = -0.05
+	    local_institution_spread = 0.15
         }
         area_modifier = {
             local_tax_modifier       = 0.05
