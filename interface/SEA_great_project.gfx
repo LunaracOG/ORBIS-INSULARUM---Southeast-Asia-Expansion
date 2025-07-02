@@ -119,4 +119,8 @@ spriteType = {
 	name = "GFX_great_project_batavia"
 	texturefile = "gfx/interface/great_projects/great_project_batavia.dds"
 }
+spriteType = {
+	name = "GFX_great_project_taal_basilica"
+	texturefile = "gfx/interface/great_projects/great_project_taal_basilica.dds"
+}
 }
