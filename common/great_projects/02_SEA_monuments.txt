@@ -2749,12 +2749,13 @@ batavia = {	# province it starts in
 		}
 	}
 }
+
 taal_basilica = {
 	# province it starts in
-	start = 656
+	start = 4349
 	
 	# date built in real life (so anything built during game time will be there if you start a game after that date)
-	date = 1572.01.01 # modern church built in 1865
+	date = 325.01.01 #1447
 	
 	#time to build
 	time = {
