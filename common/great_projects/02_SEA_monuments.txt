@@ -2956,6 +2956,7 @@ taal_basilica = {
 		}
 	}
 }
+}
 
 #Vietnam
 citad_el_thang = {
@@ -3360,123 +3361,6 @@ my_son = {
 	}
 }
 
-#Java
-candi_sewu = {
-    # province it starts in (Muara Takus region)
-    start = 2690
-
-    # date built in real life (c. 1100)
-    date = 1100.01.01
-
-    # time to build
-    time = {
-        months = 0
-    }
-
-    # build cost
-    build_cost = 0
-
-    # can we move it?
-    can_be_moved = no
-
-    # time to move the project one unit of distance, in days
-    move_days_per_unit_distance = 1
-
-    # tier that the project starts at when first placed in the game
-    starting_tier = 1
-
-    # project type
-    type = monument
-
-    # build trigger: only Malay culture group
-    build_trigger = {
-        culture_group = malay
-    }
-
-    # on built: show the Muara Takus ambient object
-    on_built = {
-        show_ambient_object = machu_picchu
-    }
-
-    # on destroyed: hide the ambient object
-    on_destroyed = {
-        hide_ambient_object = machu_picchu
-    }
-
-    # who can use it?
-    can_use_modifiers_trigger = {
-        culture_group = malay
-    }
-
-    # who can upgrade it?
-    can_upgrade_trigger = {
-        culture_group = malay
-    }
-
-    # is it kept on conquest?
-    keep_trigger = {
-    }
-
-    # tier data
-
-    tier_0 = {
-        upgrade_time      = { months = 0 }
-        cost_to_upgrade   = { factor = 0 }
-        province_modifiers = { }
-        area_modifier      = { }
-        country_modifiers  = { }
-        on_upgraded        = { }
-    }
-
-    tier_1 = {
-        upgrade_time      = { months = 100 }
-        cost_to_upgrade   = { factor = 700 }
-        province_modifiers = {
-			local_tax_modifier = 0.05
-			development_cost   = -0.05
-			local_institution_spread = 0.05
-        }
-        area_modifier      = { }
-        country_modifiers  = {
-			monthly_karma = 0.05  #(buddhist)
-		 }
-        on_upgraded        = { }
-    }
-
-    tier_2 = {
-        upgrade_time      = { months = 200 }
-        cost_to_upgrade   = { factor = 2000 }
-        province_modifiers = {
-            local_tax_modifier = 0.10
-            development_cost   = -0.10
-	    local_institution_spread = 0.1
-        }
-        area_modifier      = { }
-        country_modifiers  = {
-			monthly_karma = 0.1  #(buddhist)
-		 }
-        on_upgraded        = { }
-    }
-
-    tier_3 = {
-        upgrade_time      = { months = 400 }
-        cost_to_upgrade   = { factor = 5000 }
-        province_modifiers = {
-            local_tax_modifier       = 0.15
-            development_cost         = -0.15
-	    local_institution_spread = 0.15
-        }
-        area_modifier = {
-            local_tax_modifier       = 0.05
-            local_monthly_devastation = -0.03
-        }
-        country_modifiers = {
-            prestige      = 0.5
-            monthly_karma = 0.15  # reflects Buddhist significance
-        }
-        on_upgraded     = { }
-    }
-}
 
 #work religion out
 bromo_semeru = {
