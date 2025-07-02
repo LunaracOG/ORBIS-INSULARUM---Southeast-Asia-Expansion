@@ -68,8 +68,8 @@ spriteType = {
 	texturefile = "gfx/interface/great_projects/great_project_plain_of_jars.dds"
 }
 spriteType = {
-	name = "GFX_great_project_sea_kinabalu"
-	texturefile = "gfx/interface/great_projects/great_project_sea_kinabalu.dds"
+	name = "GFX_great_project_sea_kinalabu"
+	texturefile = "gfx/interface/great_projects/great_project_sea_kinalabu.dds"
 }
 spriteType = {
 	name = "GFX_great_project_sukhothai"
