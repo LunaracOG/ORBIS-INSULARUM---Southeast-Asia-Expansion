@@ -361,8 +361,12 @@ muara_takus_stupa = {
 
     # build trigger: only Malay culture group
     build_trigger = {
+		OR = {
         culture_group = malay
-    }
+		culture_group = sumatran_g
+		}
+		province_is_or_accepts_culture = yes
+	}
 
     # on built: show the Muara Takus ambient object
     on_built = {
@@ -376,12 +380,20 @@ muara_takus_stupa = {
 
     # who can use it?
     can_use_modifiers_trigger = {
+		OR = {
         culture_group = malay
+		culture_group = sumatran_g
+		}
+		province_is_or_accepts_culture = yes
     }
 
     # who can upgrade it?
     can_upgrade_trigger = {
+		OR = {
         culture_group = malay
+		culture_group = sumatran_g
+		}
+		province_is_or_accepts_culture = yes
     }
 
     # is it kept on conquest?
@@ -691,7 +703,11 @@ istano_basa_pagaruyung = {
     type = monument
 
     build_trigger = {
+		OR = {
         culture_group = malay
+		culture_group = sumatran_g
+		}
+		province_is_or_accepts_culture = yes
     }
 
     on_built = {
@@ -703,11 +719,19 @@ istano_basa_pagaruyung = {
     }
 
     can_use_modifiers_trigger = {
+		OR = {
         culture_group = malay
+		culture_group = sumatran_g
+		}
+		province_is_or_accepts_culture = yes
     }
 
     can_upgrade_trigger = {
+		OR = {
         culture_group = malay
+		culture_group = sumatran_g
+		}
+		province_is_or_accepts_culture = yes
     }
 
     keep_trigger = {
@@ -790,7 +814,11 @@ muaro_jambi_temple_complex = {
     type = monument
 
     build_trigger = {
+		OR = {
         culture_group = malay
+		culture_group = sumatran_g
+		}
+		province_is_or_accepts_culture = yes
     }
 
     on_built = {
@@ -802,11 +830,19 @@ muaro_jambi_temple_complex = {
     }
 
     can_use_modifiers_trigger = {
+		OR = {
         culture_group = malay
+		culture_group = sumatran_g
+		}
+		province_is_or_accepts_culture = yes
     }
 
     can_upgrade_trigger = {
+		OR = {
         culture_group = malay
+		culture_group = sumatran_g
+		}
+		province_is_or_accepts_culture = yes
     }
 
     keep_trigger = {
@@ -1563,11 +1599,6 @@ sea_melaka_palace = {
 	#project type
 	type = monument
 
-	#can we build it?
-	build_trigger = {
-		#anyone
-	}
-
 	#what to do when it's built
 	on_built = {
 		show_ambient_object = ambras_castle
@@ -1578,13 +1609,22 @@ sea_melaka_palace = {
 		hide_ambient_object = ambras_castle
 	}
 
-	#can our country use it?
-	can_use_modifiers_trigger = {
-		#anyone
+	build_trigger = {
+		OR = {
+			culture_group = malay
+		}
+		province_is_or_accepts_culture = yes
 	}
 
-	#can our country upgrade it?
 	can_upgrade_trigger = {
+		OR = {
+			culture_group = malay
+		}
+		province_is_or_accepts_culture = yes
+	}
+
+	#can our country use it?
+	can_use_modifiers_trigger = {
 		#anyone
 	}
 
@@ -1767,9 +1807,18 @@ sea_kinalabu = {
 	#project type
 	type = monument
 
-	#can we build it?
 	build_trigger = {
-		#anyone
+		OR = {
+			culture_group = dayak_g
+		}
+		province_is_or_accepts_culture = yes
+	}
+
+	can_upgrade_trigger = {
+		OR = {
+			culture_group = dayak_g
+		}
+		province_is_or_accepts_culture = yes
 	}
 
 	#what to do when it's built
@@ -1784,11 +1833,6 @@ sea_kinalabu = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
-		#anyone
-	}
-
-	#can our country upgrade it?
-	can_upgrade_trigger = {
 		#anyone
 	}
 
@@ -1967,11 +2011,19 @@ intramuros = {
 	#project type
 	type = monument
 
-	#can we build it?
 	build_trigger = {
-		#anyone
+		OR = {
+			culture_group = iberian
+		}
+		province_is_or_accepts_culture = yes
 	}
 
+	can_upgrade_trigger = {
+		OR = {
+			culture_group = iberian
+		}
+		province_is_or_accepts_culture = yes
+	}
 	#what to do when it's built
 	on_built = {
 		show_ambient_object = ambras_castle
@@ -1984,11 +2036,6 @@ intramuros = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
-		#anyone
-	}
-
-	#can our country upgrade it?
-	can_upgrade_trigger = {
 		#anyone
 	}
 
@@ -2173,11 +2220,6 @@ fort_san_pedro = {
 	#project type
 	type = monument
 
-	#can we build it?
-	build_trigger = {
-		#anyone
-	}
-
 	#what to do when it's built
 	on_built = {
 		show_ambient_object = ambras_castle
@@ -2188,13 +2230,22 @@ fort_san_pedro = {
 		hide_ambient_object = ambras_castle
 	}
 
-	#can our country use it?
-	can_use_modifiers_trigger = {
-		#anyone
+	build_trigger = {
+		OR = {
+			culture_group = iberian
+		}
+		province_is_or_accepts_culture = yes
 	}
 
-	#can our country upgrade it?
 	can_upgrade_trigger = {
+		OR = {
+			culture_group = iberian
+		}
+		province_is_or_accepts_culture = yes
+	}
+
+	#can our country use it?
+	can_use_modifiers_trigger = {
 		#anyone
 	}
 
@@ -2373,9 +2424,24 @@ fort_rotterdam = {
 	#project type
 	type = monument
 
-	#can we build it?
 	build_trigger = {
-		#anyone
+		OR = {
+			culture = dutch
+			culture = flemish
+			culture = frisian
+			culture = roman
+		}
+		province_is_or_accepts_culture = yes
+	}
+
+	can_upgrade_trigger = {
+		OR = {
+			culture = dutch
+			culture = flemish
+			culture = frisian
+			culture = roman
+		}
+		province_is_or_accepts_culture = yes
 	}
 
 	#what to do when it's built
@@ -2390,11 +2456,6 @@ fort_rotterdam = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
-		#anyone
-	}
-
-	#can our country upgrade it?
-	can_upgrade_trigger = {
 		#anyone
 	}
 
@@ -2561,6 +2622,32 @@ batavia = {	# province it starts in
 		months = 0
 	}
 	
+
+	build_trigger = {
+		OR = {
+			culture = dutch
+			culture = flemish
+			culture = frisian
+			culture = roman
+		}
+		province_is_or_accepts_culture = yes
+	}
+
+	#can our country use it?
+	can_use_modifiers_trigger = {
+		#anyone
+	}
+	
+	can_upgrade_trigger = {
+		OR = {
+			culture = dutch
+			culture = flemish
+			culture = frisian
+			culture = roman
+		}
+		province_is_or_accepts_culture = yes
+	}
+
 	#how much to build one
 	build_cost = 0
 	
@@ -2576,11 +2663,6 @@ batavia = {	# province it starts in
 	#project type
 	type = monument
 
-	#can we build it?
-	build_trigger = {
-		#anyone
-	}
-
 	#what to do when it's built
 	on_built = {
 		show_ambient_object = ambras_castle
@@ -2589,16 +2671,6 @@ batavia = {	# province it starts in
 	#what to do when it's destroyed
 	on_destroyed = {
 		hide_ambient_object = ambras_castle
-	}
-
-	#can our country use it?
-	can_use_modifiers_trigger = {
-		#anyone
-	}
-
-	#can our country upgrade it?
-	can_upgrade_trigger = {
-		#anyone
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -3381,53 +3453,24 @@ bromo_semeru = {
 
 	#can we build it?
 	build_trigger = {
-		custom_trigger_tooltip = {
-			tooltip = mount_fuji_tt
-			OR = {		
-				AND = {
-					religion = shinto
-					has_owner_religion = yes
-				}
-				AND = {
-					religion = mahayana
-					has_owner_religion = yes
-				}
-				AND = {
-					OR = {
-						religion = shinto
-						has_owner_religion = yes
-					}
-					owner = { has_harmonized_with = shinto }
-				}
-				AND = {
-					owner = {
-						religion = tengri_pagan_reformed
-						secondary_religion = shinto
-					}
-					OR = {
-						religion = shinto
-						has_owner_religion = yes
-					}
-				}
-				AND = {
-					OR = {
-						religion = mahayana
-						has_owner_religion = yes
-					}
-					owner = { has_harmonized_with = mahayana }
-				}
-				AND = {
-					owner = {
-						religion = tengri_pagan_reformed
-						secondary_religion = mahayana
-					}
-					OR = {
-						religion = mahayana
-						has_owner_religion = yes
-					}
-				}
-			}
+		OR = {
+			culture_group = javanese_g
 		}
+		province_is_or_accepts_culture = yes
+	}
+
+	can_use_modifiers_trigger = {
+		OR = {
+			culture_group = javanese_g
+		}
+		province_is_or_accepts_culture = yes
+	}
+
+	can_upgrade_trigger = {
+		OR = {
+			culture_group = javanese_g
+		}
+		province_is_or_accepts_culture = yes
 	}
 
 	#what to do when it's built
@@ -3438,108 +3481,6 @@ bromo_semeru = {
 	#what to do when it's destroyed
 	on_destroyed = {
 		hide_ambient_object = mount_fuji
-	}
-
-	#can our country use it?
-	can_use_modifiers_trigger = {
-		custom_trigger_tooltip = {
-			tooltip = mount_fuji_tt
-			OR = {		
-				AND = {
-					religion = shinto
-					has_owner_religion = yes
-				}
-				AND = {
-					religion = mahayana
-					has_owner_religion = yes
-				}
-				AND = {
-					OR = {
-						religion = shinto
-						has_owner_religion = yes
-					}
-					owner = { has_harmonized_with = shinto }
-				}
-				AND = {
-					owner = {
-						religion = tengri_pagan_reformed
-						secondary_religion = shinto
-					}
-					OR = {
-						religion = shinto
-						has_owner_religion = yes
-					}
-				}
-				AND = {
-					OR = {
-						religion = mahayana
-						has_owner_religion = yes
-					}
-					owner = { has_harmonized_with = mahayana }
-				}
-				AND = {
-					owner = {
-						religion = tengri_pagan_reformed
-						secondary_religion = mahayana
-					}
-					OR = {
-						religion = mahayana
-						has_owner_religion = yes
-					}
-				}
-			}
-		}
-	}
-
-	#can our country upgrade it?
-	can_upgrade_trigger = {
-		custom_trigger_tooltip = {
-			tooltip = mount_fuji_tt
-			OR = {		
-				AND = {
-					religion = shinto
-					has_owner_religion = yes
-				}
-				AND = {
-					religion = mahayana
-					has_owner_religion = yes
-				}
-				AND = {
-					OR = {
-						religion = shinto
-						has_owner_religion = yes
-					}
-					owner = { has_harmonized_with = shinto }
-				}
-				AND = {
-					owner = {
-						religion = tengri_pagan_reformed
-						secondary_religion = shinto
-					}
-					OR = {
-						religion = shinto
-						has_owner_religion = yes
-					}
-				}
-				AND = {
-					OR = {
-						religion = mahayana
-						has_owner_religion = yes
-					}
-					owner = { has_harmonized_with = mahayana }
-				}
-				AND = {
-					owner = {
-						religion = tengri_pagan_reformed
-						secondary_religion = mahayana
-					}
-					OR = {
-						religion = mahayana
-						has_owner_religion = yes
-					}
-				}
-			}
-		}
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
