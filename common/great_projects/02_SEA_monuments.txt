@@ -225,7 +225,6 @@ banaue_rice_terraces = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
-		culture_group = filipino_g
 	}
 
 	#can our country upgrade it?
@@ -362,8 +361,9 @@ muara_takus_stupa = {
     # build trigger: only Malay culture group
     build_trigger = {
 		OR = {
-        culture_group = malay
-		culture_group = sumatran_g
+            culture_group = malay
+			culture_group = sumatran_g
+            religion_group = dharmic
 		}
 		province_is_or_accepts_culture = yes
 	}
@@ -380,18 +380,19 @@ muara_takus_stupa = {
 
     # who can use it?
     can_use_modifiers_trigger = {
-		OR = {
-        culture_group = malay
-		culture_group = sumatran_g
-		}
-		province_is_or_accepts_culture = yes
+       OR = {
+            culture_group = malay
+			culture_group = sumatran_g
+            religion_group = dharmic
+        }
     }
 
     # who can upgrade it?
     can_upgrade_trigger = {
 		OR = {
-        culture_group = malay
-		culture_group = sumatran_g
+            culture_group = malay
+			culture_group = sumatran_g
+            religion_group = dharmic
 		}
 		province_is_or_accepts_culture = yes
     }
@@ -488,7 +489,7 @@ bajang_ratu_gate = {
 
     # build trigger: only Javanese cultures of Majapahit
     build_trigger = {
-        culture_group = javanese
+        culture_group = javanese_g
     }
 
     # on built: show the Bajang Ratu Gate ambient object
@@ -503,12 +504,12 @@ bajang_ratu_gate = {
 
     # who can use it?
     can_use_modifiers_trigger = {
-        culture_group = javanese
+        culture_group = javanese_g
     }
 
     # who can upgrade it?
     can_upgrade_trigger = {
-        culture_group = javanese
+        culture_group = javanese_g
     }
 
     # is it kept on conquest?
@@ -815,8 +816,9 @@ muaro_jambi_temple_complex = {
 
     build_trigger = {
 		OR = {
-        culture_group = malay
-		culture_group = sumatran_g
+            culture_group = malay
+			culture_group = sumatran_g
+            religion_group = dharmic
 		}
 		province_is_or_accepts_culture = yes
     }
@@ -831,16 +833,18 @@ muaro_jambi_temple_complex = {
 
     can_use_modifiers_trigger = {
 		OR = {
-        culture_group = malay
-		culture_group = sumatran_g
+            culture_group = malay
+			culture_group = sumatran_g
+            religion_group = dharmic
 		}
 		province_is_or_accepts_culture = yes
     }
 
     can_upgrade_trigger = {
 		OR = {
-        culture_group = malay
-		culture_group = sumatran_g
+            culture_group = malay
+			culture_group = sumatran_g
+            religion_group = dharmic
 		}
 		province_is_or_accepts_culture = yes
     }
@@ -1035,7 +1039,7 @@ mrauk_u = {
 
     # build trigger: only Malay culture group
     build_trigger = {
-        culture_group = malay
+        culture_group = burman
     }
 
     # on built: show the Muara Takus ambient object
@@ -1050,12 +1054,12 @@ mrauk_u = {
 
     # who can use it?
     can_use_modifiers_trigger = {
-        culture_group = malay
+        culture_group = burman
     }
 
     # who can upgrade it?
     can_upgrade_trigger = {
-        culture_group = malay
+        culture_group = burman
     }
 
     # is it kept on conquest?
@@ -1150,7 +1154,7 @@ wat_phra_sri = {
 
     # build trigger: only Malay culture group
     build_trigger = {
-        culture_group = malay
+        culture_group = thai_group
     }
 
     # on built: show the Muara Takus ambient object
@@ -1165,12 +1169,11 @@ wat_phra_sri = {
 
     # who can use it?
     can_use_modifiers_trigger = {
-        culture_group = malay
     }
 
     # who can upgrade it?
     can_upgrade_trigger = {
-        culture_group = malay
+        culture_group = thai_group
     }
 
     # is it kept on conquest?
@@ -1268,7 +1271,7 @@ pha_that_luang = {    # province it starts in (Muara Takus region)
 
     # build trigger: only Malay culture group
     build_trigger = {
-        culture_group = malay
+        culture_group = thai_group
     }
 
     # on built: show the Muara Takus ambient object
@@ -1283,12 +1286,12 @@ pha_that_luang = {    # province it starts in (Muara Takus region)
 
     # who can use it?
     can_use_modifiers_trigger = {
-        culture_group = malay
+        culture_group = thai_group
     }
 
     # who can upgrade it?
     can_upgrade_trigger = {
-        culture_group = malay
+        culture_group = thai_group
     }
 
     # is it kept on conquest?
@@ -1385,7 +1388,7 @@ sukhothai = {
 
     # build trigger: only Malay culture group
     build_trigger = {
-        culture_group = malay
+        culture_group = thai_group
     }
 
     # on built: show the Muara Takus ambient object
@@ -1400,12 +1403,12 @@ sukhothai = {
 
     # who can use it?
     can_use_modifiers_trigger = {
-        culture_group = malay
+        culture_group = thai_group
     }
 
     # who can upgrade it?
     can_upgrade_trigger = {
-        culture_group = malay
+        culture_group = thai_group
     }
 
     # is it kept on conquest?
