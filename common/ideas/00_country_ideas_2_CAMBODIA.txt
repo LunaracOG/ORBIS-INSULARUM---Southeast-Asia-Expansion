@@ -14,7 +14,7 @@ KHS_ideas = {
 	
 	trigger = {
 		NOT = { tag = KHM }
-		primary_culture = northern_thai
+		primary_culture = khmer
 	}
 	free = yes
 	
