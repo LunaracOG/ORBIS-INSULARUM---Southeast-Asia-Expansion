@@ -915,3 +915,44 @@ BKL_ideas = {
         stability_cost_modifier = -0.15
     }
 }
+
+PGR_ideas = {
+    start = {
+        spy_offence = 0.15
+        global_spy_defence = 0.15
+    }
+ 
+    bonus = {
+		innovativeness_gain = 0.25
+    }
+ 
+    trigger = {
+		tag = PGR
+    }
+    free = yes
+ 
+    pgr_silek = {
+		drill_gain_modifier = 0.25
+    }
+    pgr_luhak = {
+		expand_infrastructure_cost_modifier = -0.20
+    }
+    pgr_rendang = {
+		global_supply_limit_modifier = 0.20
+        global_monthly_devastation = -0.1
+    }
+    pgr_rantau = {
+		movement_speed = 0.10
+        institution_spread_from_true_faith = 0.10
+    }
+    pgr_mantra_tambo = {
+		prestige = 0.5
+        idea_cost = -0.1
+    }
+    pgr_kabau = {
+		defensiveness = 0.10
+    }
+    pgr_minang = {
+		army_tradition_from_battle = 0.5
+    }
+}
