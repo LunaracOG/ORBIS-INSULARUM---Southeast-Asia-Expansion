@@ -8470,48 +8470,6 @@ LNA_ideas = {
     }
 }
 
-PGR_ideas = {
-    start = {
-		defensiveness = 0.1
-		tolerance_heathen = 2
-    }
- 
-    bonus = {
-		trade_efficiency = 0.1
-    }
- 
-    trigger = {
-		tag = PGR
-    }
-    free = yes
- 
-    pgr_tantric_legacy = {
-		global_missionary_strength = 0.02
-    }
-    pgr_gold_trade = {
-		global_trade_power = 0.1
-    }
-    pgr_istano_basa = {
-		legitimacy = 1
-		devotion = 1
-		republican_tradition = 0.3
-		meritocracy = 1
-		horde_unity = 1
-    }
-    pgr_rajo_tigo_selo = {
-		global_unrest = -1
-    }
-    pgr_high_education = {
-		global_institution_spread = 0.1
-    }
-    pgr_rumah_gadang = {
-		prestige = 1
-    }
-    pgr_matrilinear_culture = {
-		stability_cost_modifier = -0.1
-    }
-}
-
 CMI_ideas = {
     start = {
 		global_trade_goods_size_modifier = 0.1
